@@ -17,4 +17,6 @@ The icons, favicon, toy-world diagram, and schematic light paths are authored as
 
 ## Original SVG research diagrams
 
-The `memory-*.svg`, `idea-causes.svg`, `idea-materials.svg`, and `idea-recovery.svg` assets are code-authored vector illustrations created for this sketchbook. They contain no participant data and are not simulation results. Earlier spatial/preference SVGs remain as unused sketch assets; their pages are archived outside the deployed site.
+The `memory-*.svg` and `learning-*.svg` / `input-*.svg` assets are original code-authored vector illustrations. They contain no participant data and are not simulation results. The learning diagrams depict an invented mechanism, an illustrative revision trace, and hypothetical held-out worlds. Memory attention depicts simulated gaze, not a measured fixation. Obsolete cause/material/recovery/spatial/preference assets have been removed from publication.
+
+Input diagrams depict proposed ring/touch and pointing interactions. These are not images of built hardware or measured gesture recognition.

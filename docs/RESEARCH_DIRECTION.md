@@ -1,43 +1,33 @@
 # Current research direction
 
-## What the owner wants
+The owner selected exactly three areas on 2026-11-01: **Everyday memory**, **Learning to learn**, and **Input**. The latter name replaces “discovering unfamiliar rules” as the broad program name. The hidden-rule world is its first proposed study.
 
-A research lab using their AI, AR, and VR background. The website is a visual sketchbook to evaluate ideas. Useful research solving real problems matters more than immediate paying customers. Specialized datasets could be licensed; models and benchmarks are other potential outputs.
+This is a visual research sketchbook for an independent lab with AI/AR/VR expertise. Useful research, exploratory potential, and original data that could be licensed matter more than immediate paying customers. No participant collection, model training, or live learning agent exists here.
 
-Do not overbuild functionality or spend time on mobile polish at this stage. The owner explicitly asked for SVG explanations and bigger-picture brainstorming.
+## Everyday memory
 
-## Accepted interest
+Naturalistic first-person footage and synchronized eye tracking, linked to genuine later questions and independently checked evidence. Gaze is not proof of intent, understanding, or recall. Proposed pilot: 5–10 consenting participants, selected periods over two weeks; controlled interrupted packing first. Keep prompted questions distinct from spontaneous ones, record calibration and missing data, and plan participant review and appropriate permissions.
 
-**Everyday memory.** Could AI remember daily experience while distinguishing observed events, changes, and gaps? The memory page explains object tracking, event memory, and evidence-linked answers. A controlled interrupted packing task could compare video retrieval with structured event memory under the same model and observation budget. Evaluate answer and evidence accuracy, unsupported claims, and abstention on unseen people and situations.
+Compare base model, video fine-tuning, and video-plus-gaze fine-tuning with held-out participants/homes. Measure answer accuracy, evidence accuracy, unsupported claims, and storage/processing budgets. Fine-tune general memory skills while keeping personal experiences in a retrievable store. Egocentric footage, gaze, and memory QA already exist (EgoLife, SuperMemory-VQA); added value is a hypothesis to test.
 
-Potential data: first-person observations, genuine delayed questions, independently checked event histories, evidence timestamps, and answerability labels. User feedback on the website's scripted sample is not independent verification.
+## Learning to learn
 
-## New candidates, not yet accepted
+Study how learners choose experiments, predict outcomes, and revise hypotheses; test whether these strategies transfer. First proposed toy world: two hidden object states, same states repel and different states attract, a light flips state, color is irrelevant. These are invented rules, not real physics. Humans see an attractive world; initial agents receive equivalent structured observations without hidden-state leakage.
 
-### Everyday causes
+Record observations, predictions/confidence, actions, outcomes, revisions, and final explanations. Avoid constant prompts; compare prompted/unprompted sessions. Fine-tune selected traces; human strategies are not assumed optimal. Hold out whole mechanisms (sequence, duration, distance), not just appearances. Compare untuned model, random exploration, and systematic one-variable changes under equal budgets. Score new predictions and goal success, not eloquent explanations. Compare against cheaper synthetic data before claiming licensing value.
 
-Study whether AI can distinguish several possible causes of a failure by choosing informative tests. Example: a device fails to charge; change one controlled factor and record the result. Begin with safe, simple objects and known faults. Potential data connects known cause, observations, intervention, failed attempts, and verified resolution. A visual troubleshooting system is one application, not the entire research thesis.
+First milestone: one polished world, small human pilot, untuned baselines. Website currently explains this with static SVGs only. Toy-world success is not evidence of real scientific discovery.
 
-Existing procedural error work: [CaptainCook4D](https://arxiv.org/abs/2312.14556). The proposed emphasis on verified causal tests would require a proper novelty review.
+## Input
 
-### A material world
+Investigate alternatives to voice input for AI: explicit touch, subtle finger/wrist gestures, and pointing plus confirmation. Form factors are experimental, not hardware products. Distinguish command detection from contextual request interpretation. A sensor model may handle raw motion; an LLM/VLM can learn mappings between confirmed inputs, context, and requests. Gaze alone is not a command.
 
-Study physical properties through observed behavior. Similar-looking fabrics can drape differently. Start with controlled fabric interactions paired with measured properties. Potential applications include virtual clothing, AR/VR materials, and physical prediction models. Data value would need to be demonstrated on held-out materials, rather than assumed from collection volume.
+Collect intended commands, synchronized sensor data, target/task context, corrections, and substantial ordinary-movement negatives. Keep prompted/spontaneous sessions distinct. First compare four commands using touch/button vs gestures on suitable existing hardware. Evaluate false activations per hour, misses, latency, corrections, comfort, and held-out users/activities. No hardware integration or data collection implemented.
 
-Existing foundation: [MIT Fabric Properties Dataset](https://people.csail.mit.edu/klbouman/pw/projects/materialproperties/dataset.html). This is not an untouched field. The SVG is a schematic, not a physical simulation.
+## Removed areas
 
-### Recovery in daily life
+Everyday causes, materials, recovery, and all earlier alternatives are removed from publication. Older rejected concepts stay archived as history outside site/. The user has now explicitly chosen a new learning-to-learn direction; this supersedes the previous rejection of learning-agent sketches. Do not restore the deleted experiment in the separate Council project.
 
-Study whether everyday actions can provide validated measures of function over time. Record consented daily activities with task context and independently assessed function. A clinical research partner is necessary to define a useful study and labels. The sketch shows reach, grasp, lift; it does not contain patient data or claim measured recovery.
+## Scope and privacy
 
-Existing work: [Detecting Activities of Daily Living in Egocentric Video to Contextualize Hand Use at Home](https://arxiv.org/abs/2412.10846).
-
-## Rejected directions
-
-The owner disliked the earlier assistance timing, gaze/intent, unfamiliar-world learning agents, and visual-science areas. They then rejected spatial planning and personal taste. These should not be restored or merely renamed as new ideas. Earlier HTML is preserved in `archived-concepts/` only as history, outside publication.
-
-The separate Council project and its deleted experiment must remain untouched.
-
-## Data licensing
-
-Possible original outputs: task-specific training datasets, independently held-out evaluations, and specialized models. Useful labels, relevant coverage, permissions suited to intended uses, and demonstrated incremental value matter. No buyer demand, revenue, exclusive novelty, or model improvement has been established. Public methods and samples could coexist with licensed datasets.
+Keep the website simple, diagram-led, and free on GitHub Pages. No mobile QA campaign, backend, analytics, or paid services. README remains only “# Notes”; repository About description/homepage stay blank. The public repo/site are not private; noindex reduces indexing only.
