@@ -10,7 +10,7 @@ Mote Lab is a temporary name. The project is independent of The Council / Intuit
 
 ## Location and hosting
 
-- Persistent checkout requested: `/Users/emanuelapple/Desktop/Mote Lab`.
+- Persistent checkout: `/Users/emanuelapple/Desktop/Mote Lab`.
 - Repo: https://github.com/eman2XR/mote-7c4e9b2a
 - Website: https://eman2xr.github.io/mote-7c4e9b2a/
 - Branch: `main`; GitHub Pages uses `.github/workflows/pages.yml`.
@@ -52,4 +52,8 @@ The owner explicitly asked to stop mobile testing and functional polish. Run bas
 
 ## Current completion status
 
-Four-page local source checks pass, JavaScript syntax passes, and SVG files parse. Earlier desktop SVG layouts were inspected. The final three candidate sketches have not received additional browser QA, per the owner's request to focus on ideas. Persistent-folder move and first publication are pending completion; update this section with the actual outcome.
+Four-page local source checks pass, JavaScript syntax passes, and SVG files parse. Earlier desktop SVG layouts were inspected. The final three candidate sketches have not received additional browser QA, per the owner's request to focus on ideas. The checkout was moved to the Desktop path above. First publication succeeded in GitHub Actions run 41389761694 at commit 5bc910d. The live site is available at the URL above. The temporary local preview server was stopped; restart it from this checkout when needed.
+
+## Local Git setup
+
+This personal repository uses the eman2XR GitHub noreply identity. Local Git settings override inherited work X.509 signing and hook-path settings; global work settings were not changed.
