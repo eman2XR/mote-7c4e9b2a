@@ -14,6 +14,8 @@ This is idea brainstorming. Prioritize original SVG explanations and useful rese
 
 ## Working constraints
 
+- Keep README minimal, with no project description or website link. Keep repository About description and homepage blank. The owner wants low discoverability; do not restore promotional metadata.
+
 - Keep concept pages clear, visual, and modest in scope. Avoid overbuilding applications or adding infrastructure before a direction is chosen.
 - Use the existing free GitHub Pages setup. Do not add paid hosting, API usage, or services without a new user request.
 - Distinguish concept sketches, scripted prototypes, proposed studies, and measured results. No real dataset or learning agent exists in this repo yet.
