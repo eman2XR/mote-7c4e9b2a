@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-labelledby="title desc">
+<title id="title">A room can fit the furniture and still fail the task</title><desc id="desc">Two schematic floor plans compare a sofa that blocks the entrance route with a placement that leaves a clear path. A plausible-looking layout is not sufficient evidence of usability.</desc><defs>
+<linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f1f2e8"/><stop offset="1" stop-color="#e4e9d8"/></linearGradient>
+<linearGradient id="wood" x2="1" y2="1"><stop stop-color="#e8d4b5"/><stop offset="1" stop-color="#cfb68e"/></linearGradient>
+<linearGradient id="bag-fill" x2="1" y2="1"><stop stop-color="#98aa7a"/><stop offset="1" stop-color="#657c50"/></linearGradient>
+<filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#21362a" flood-opacity=".09"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#798c6b" opacity=".2"/></pattern>
+<marker id="arrow-tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="m1 1 7 4-7 4" fill="none" stroke="#667a52" stroke-width="1.5"/></marker>
+<g id="keys"><ellipse cx="0" cy="9" rx="33" ry="8" fill="#26372d" opacity=".08"/><circle cx="-12" cy="-4" r="13" fill="none" stroke="#78827b" stroke-width="4"/><path d="m-3 4 26 17 7-8-8-5-5 5-6-4 4-5-12-8Z" fill="#d7d9cd" stroke="#778278" stroke-width="1.4"/><path d="m-1-9 29-2 5 13-31 2Z" fill="#d9ed9c" stroke="#6a7f4d" stroke-width="1.4"/><circle cx="7" cy="-3" r="2.4" fill="#6a7f4d"/></g>
+<g id="bag"><path d="M-48-28Q0-39 48-28L59 59Q0 78-59 59Z" fill="url(#bag-fill)" stroke="#5f744b" stroke-width="2"/><path d="M-29-29v-24q0-37 29-37t29 37v24" fill="none" stroke="#647b4e" stroke-width="9"/><path d="M-27-30v-23q0-33 27-33t27 33v23" fill="none" stroke="#b7c49f" stroke-width="3"/><path d="M-48-28Q0-13 48-28M-39-18l-4 71M39-18l4 71" fill="none" stroke="#c2cba8" stroke-width="1.5" opacity=".7"/><path d="M-18 6h36v25h-36Z" fill="#e5e9d2" opacity=".65"/></g>
+<g id="charger"><rect x="-21" y="-20" width="42" height="40" rx="9" fill="#fffef8" stroke="#8a9780" stroke-width="1.7"/><path d="M-8-20v-10M8-20v-10" stroke="#899583" stroke-width="4"/><path d="M0 20v12q0 23 25 23t25-18q0-15-17-15" fill="none" stroke="#fffef8" stroke-width="7"/><path d="M0 20v12q0 23 25 23t25-18q0-15-17-15" fill="none" stroke="#a2ad96" stroke-width="1.5"/></g>
+<g id="eye"><path d="M-16 0q16-20 32 0-16 20-32 0Z" fill="none" stroke="currentColor" stroke-width="2"/><circle r="5" fill="none" stroke="currentColor" stroke-width="2"/></g>
+<g id="check"><circle r="12" fill="#d9ed9c"/><path d="m-5 0 3 4 7-8" fill="none" stroke="#3f5a30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</defs>
+<rect width="640" height="460" rx="22" fill="#edf0e3"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#26372d">
+<text x="30" y="38" font-family="monospace" font-size="11" letter-spacing="1.7" fill="#72806a">A ROOM IS MORE THAN A PICTURE</text>
+<rect x="28" y="69" width="278" height="297" rx="14" fill="#fffdf5" stroke="#d1d9c4"/><rect x="334" y="69" width="278" height="297" rx="14" fill="#fffdf5" stroke="#b8c9a2"/>
+<text x="47" y="100" font-size="15">Looks like it fits.</text><text x="353" y="100" font-size="15">Leaves a usable path.</text>
+<path d="M54 309V123h226v186H137M83 309H54" fill="none" stroke="#7c8b71" stroke-width="6"/><path d="M360 309V123h226v186H443M389 309h-29" fill="none" stroke="#7c8b71" stroke-width="6"/>
+<path d="M83 310v-54q54 0 54 54M389 310v-54q54 0 54 54" fill="none" stroke="#bac5ad" stroke-width="1.5"/>
+<path d="M67 162h200M67 200h200M67 238h200M67 276h200M373 162h200M373 200h200M373 238h200M373 276h200" stroke="#edf0e5" stroke-width="1.2"/>
+<g fill="#d5ae92" stroke="#a77858" stroke-width="1.5"><rect x="86" y="232" width="157" height="56" rx="8"/><rect x="94" y="239" width="141" height="10" rx="3"/><rect x="95" y="250" width="65" height="30" rx="4"/><rect x="165" y="250" width="65" height="30" rx="4"/></g>
+<g fill="#b3c991" stroke="#748e55" stroke-width="1.5"><rect x="378" y="139" width="157" height="56" rx="8"/><rect x="386" y="146" width="141" height="10" rx="3"/><rect x="387" y="157" width="65" height="30" rx="4"/><rect x="457" y="157" width="65" height="30" rx="4"/></g>
+<rect x="146" y="150" width="50" height="43" rx="9" fill="#e9ddbd" stroke="#b8ab87"/><rect x="425" y="215" width="50" height="43" rx="9" fill="#e9ddbd" stroke="#b8ab87"/>
+<path d="M111 335v-34" stroke="#af7552" stroke-width="14" opacity=".17"/><path d="M111 335v-38" stroke="#af7552" stroke-width="2" stroke-dasharray="5 5"/><path d="m103 294 16-16m0 16-16-16" stroke="#af7552" stroke-width="2.5"/>
+<path d="M415 335v-48q0-12 13-12h110q17 0 17-18v-39" fill="none" stroke="#bfd596" stroke-width="23" opacity=".4"/><path d="M415 335v-48q0-12 13-12h110q17 0 17-18v-39" fill="none" stroke="#7e975d" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow-tip)"/>
+<text x="167" y="349" text-anchor="middle" font-size="12" fill="#a06f50">ENTRANCE BLOCKED</text><text x="473" y="349" text-anchor="middle" font-size="12" fill="#64804b">PATH KEPT CLEAR</text>
+<text x="320" y="404" text-anchor="middle" font-size="20">“Will this work in my room?”</text><text x="320" y="433" text-anchor="middle" font-size="12" fill="#718064">Schematic layout · a real test needs measured geometry and clear constraints</text>
+</g></svg>

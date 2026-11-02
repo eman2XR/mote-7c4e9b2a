@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" role="img" aria-labelledby="title desc">
+<title id="title">A moment becomes a memory</title><desc id="desc">An illustrated table with keys is connected to an event record. A later question points back to the observed moment, with an explicit last-seen timestamp.</desc><defs>
+<linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f1f2e8"/><stop offset="1" stop-color="#e4e9d8"/></linearGradient>
+<linearGradient id="wood" x2="1" y2="1"><stop stop-color="#e8d4b5"/><stop offset="1" stop-color="#cfb68e"/></linearGradient>
+<linearGradient id="bag-fill" x2="1" y2="1"><stop stop-color="#98aa7a"/><stop offset="1" stop-color="#657c50"/></linearGradient>
+<filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#21362a" flood-opacity=".09"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#798c6b" opacity=".2"/></pattern>
+<marker id="arrow-tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="m1 1 7 4-7 4" fill="none" stroke="#667a52" stroke-width="1.5"/></marker>
+<g id="keys"><ellipse cx="0" cy="9" rx="33" ry="8" fill="#26372d" opacity=".08"/><circle cx="-12" cy="-4" r="13" fill="none" stroke="#78827b" stroke-width="4"/><path d="m-3 4 26 17 7-8-8-5-5 5-6-4 4-5-12-8Z" fill="#d7d9cd" stroke="#778278" stroke-width="1.4"/><path d="m-1-9 29-2 5 13-31 2Z" fill="#d9ed9c" stroke="#6a7f4d" stroke-width="1.4"/><circle cx="7" cy="-3" r="2.4" fill="#6a7f4d"/></g>
+<g id="bag"><path d="M-48-28Q0-39 48-28L59 59Q0 78-59 59Z" fill="url(#bag-fill)" stroke="#5f744b" stroke-width="2"/><path d="M-29-29v-24q0-37 29-37t29 37v24" fill="none" stroke="#647b4e" stroke-width="9"/><path d="M-27-30v-23q0-33 27-33t27 33v23" fill="none" stroke="#b7c49f" stroke-width="3"/><path d="M-48-28Q0-13 48-28M-39-18l-4 71M39-18l4 71" fill="none" stroke="#c2cba8" stroke-width="1.5" opacity=".7"/><path d="M-18 6h36v25h-36Z" fill="#e5e9d2" opacity=".65"/></g>
+<g id="charger"><rect x="-21" y="-20" width="42" height="40" rx="9" fill="#fffef8" stroke="#8a9780" stroke-width="1.7"/><path d="M-8-20v-10M8-20v-10" stroke="#899583" stroke-width="4"/><path d="M0 20v12q0 23 25 23t25-18q0-15-17-15" fill="none" stroke="#fffef8" stroke-width="7"/><path d="M0 20v12q0 23 25 23t25-18q0-15-17-15" fill="none" stroke="#a2ad96" stroke-width="1.5"/></g>
+<g id="eye"><path d="M-16 0q16-20 32 0-16 20-32 0Z" fill="none" stroke="currentColor" stroke-width="2"/><circle r="5" fill="none" stroke="currentColor" stroke-width="2"/></g>
+<g id="check"><circle r="12" fill="#d9ed9c"/><path d="m-5 0 3 4 7-8" fill="none" stroke="#3f5a30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</defs>
+<rect width="640" height="560" rx="22" fill="#edf0e3"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#26372d">
+<rect width="640" height="560" fill="url(#dots)" opacity=".6"/>
+<text x="32" y="37" font-family="monospace" font-size="11" letter-spacing="1.8" fill="#72806a">FIELD NOTE 001 / EVERYDAY MEMORY</text>
+<rect x="32" y="67" width="576" height="310" rx="17" fill="url(#paper)" stroke="#d2d9c6"/>
+<path d="M32 245 301 103 608 257M301 103v128" fill="none" stroke="#cad2bd"/>
+<path d="m92 278 215-112 244 126-223 115Z" fill="#c6d4b3" opacity=".45"/>
+<path d="m147 260 163-83 187 92-167 86Z" fill="url(#wood)" stroke="#c3aa82"/>
+<path d="m147 260 183 95 167-86v12l-167 87-183-96Z" fill="#bd9e76"/>
+<path d="M169 283v50l13 7v-51M471 294v44l-12 7v-44M325 367v38l13-6v-38" fill="#a58866"/>
+<path d="m224 237 46-24 58 29-47 24Z" fill="#f9f5e6" stroke="#a8a48b"/>
+<path d="m230 239 49 23M238 235l49 23M246 231l49 23" stroke="#d7d5c1"/>
+<ellipse cx="372" cy="228" rx="20" ry="10" fill="#c29a71"/><path d="M352 206v21q20 16 40 0v-21" fill="#b87a53"/><ellipse cx="372" cy="206" rx="20" ry="10" fill="#d5a57b"/><ellipse cx="372" cy="206" rx="14" ry="6" fill="#614934"/><path d="M392 211q23-5 16 12-6 7-16 0" fill="none" stroke="#b87a53" stroke-width="5"/>
+<use href="#keys" transform="translate(335 290) rotate(-20) scale(.9)"/>
+<ellipse cx="334" cy="287" rx="56" ry="30" fill="none" stroke="#738856" stroke-width="1.5" stroke-dasharray="4 5"/>
+<rect x="53" y="88" width="147" height="37" rx="18" fill="#fffef9"/><circle cx="72" cy="106" r="4" fill="#789254"/><text x="84" y="111" font-size="13">08:42 · observed</text>
+<path d="M385 291h134v124" fill="none" stroke="#72865c" stroke-width="1.5" stroke-dasharray="4 6" marker-end="url(#arrow-tip)"/>
+<g filter="url(#shadow)"><rect x="48" y="406" width="544" height="120" rx="15" fill="#fffef9" stroke="#d3dcc5"/></g>
+<text x="71" y="436" font-family="monospace" font-size="11" letter-spacing="1" fill="#6c795f">LATER: “WHERE DID I LEAVE MY KEYS?”</text>
+<use href="#check" x="83" y="467"/><text x="106" y="473" font-size="22">Last seen on the kitchen table.</text>
+<text x="106" y="502" font-size="13" fill="#72806a">08:42 · linked to this moment · later location unknown</text>
+</g></svg>
