@@ -20,3 +20,7 @@ The icons, favicon, toy-world diagram, and schematic light paths are authored as
 The `memory-*.svg` and `learning-*.svg` / `input-*.svg` assets are original code-authored vector illustrations. They contain no participant data and are not simulation results. The learning diagrams depict an invented mechanism, an illustrative revision trace, and hypothetical held-out worlds. Memory attention depicts simulated gaze, not a measured fixation. Obsolete cause/material/recovery/spatial/preference assets have been removed from publication.
 
 Input diagrams depict proposed ring/touch and pointing interactions. These are not images of built hardware or measured gesture recognition.
+
+## Minimal studio redesign
+
+`studio-memory.svg`, `studio-learning.svg`, and `studio-input.svg` are original static code-authored illustrations of proposed research. No actual experiment results, recorded gaze, or built hardware are depicted. They use blue, orange, and purple accents respectively.

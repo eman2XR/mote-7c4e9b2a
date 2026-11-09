@@ -8,6 +8,10 @@ The owner is exploring a research-lab business using their AI, AR, and VR backgr
 
 The owner clarified that paying customers are not the current priority. They want useful research that addresses real problems. Data licensing is a possible business model. Do not turn this into a collection of consumer startup pitches or insist on a subscription product. Read `docs/RESEARCH_DIRECTION.md` for the current thesis.
 
+## Visual direction
+
+Minimal research studio: white backgrounds, bold sans-serif typography, thin dividers, generous spacing. Memory uses blue, Learning to learn orange, Input purple. `studio.css` owns the visual system. Prefer simple original SVG explanations and concise content with expandable study details. Daily research automation is paused at the user’s request; redesign is separately authorized.
+
 ## Latest scope
 
 This is idea brainstorming. Prioritize original SVG explanations and useful research questions; do not spend time making every interaction work perfectly. Rejected ideas are listed in `docs/RESEARCH_DIRECTION.md`.
